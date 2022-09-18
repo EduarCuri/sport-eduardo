@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: rgba(194, 243, 120, 0.795);
+  width: 100%; }
+  header .principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid black; }
+    header .principal .titulo_principal {
+      font-size: 20px;
+      font-family: 'Oxygen', sans-serif;
+      font-weight: 700;
+      font-size: 25px; }
+    header .principal .fa-cart-shopping {
+      font-size: 25px; }
+  header .login {
+    display: flex;
+    justify-content: space-around;
+    padding: 14px; }
+    header .login .crear_cuenta {
+      background-color: black;
+      border: 1px solid black;
+      color: greenyellow;
+      text-decoration: none;
+      padding: 5px;
+      border-radius: 4px;
+      font-size: 15px;
+      font-family: 'Oxygen', sans-serif;
+      transition: 1s; }
+      header .login .crear_cuenta:hover {
+        background-color: greenyellow; }
+    header .login .ingresar {
+      background-color: black;
+      border: 1px solid black;
+      color: greenyellow;
+      text-decoration: none;
+      padding: 5px;
+      border-radius: 4px;
+      font-size: 15px;
+      font-family: 'Oxygen', sans-serif;
+      transition: 1s; }
+      header .login .ingresar:hover {
+        background-color: greenyellow; }
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5px; }
+  nav .pagina {
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    margin: 4px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: 0.7s; }
+    nav .pagina:hover {
+      background-color: black;
+      color: greenyellow; }
+
+main {
+  padding: 10px; }
+  main .seccion1 .contenedor_portada {
+    margin: auto;
+    width: 280px;
+    height: 158px; }
+    main .seccion1 .contenedor_portada img {
+      width: 100%; }
+  main .seccion1 p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    padding: 7px; }
+  main .seccion2 {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    main .seccion2 h2 {
+      text-align: center;
+      padding: 10px;
+      font-family: 'Oxygen', sans-serif;
+      font-weight: 700;
+      font-size: 27px; }
+    main .seccion2 .card {
+      border: 1px solid black;
+      margin: auto;
+      width: 230px;
+      height: 340px;
+      border-radius: 4px 4px 4px 4px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      box-shadow: 1px 1px 6px black; }
+      main .seccion2 .card .imagen_card {
+        width: 100%;
+        height: 240px;
+        border-radius: 4px 4px 0 0; }
+        main .seccion2 .card .imagen_card img {
+          width: 100%;
+          height: 100%; }
+      main .seccion2 .card .contenido_card {
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 0 0 4px 4px;
+        text-align: justify;
+        padding: 3px 10px; }
