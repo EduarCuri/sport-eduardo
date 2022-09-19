@@ -18,8 +18,11 @@ header {
       font-family: 'Oxygen', sans-serif;
       font-weight: 700;
       font-size: 25px; }
-    header .principal .fa-cart-shopping {
-      font-size: 25px; }
+    header .principal a {
+      text-decoration: none; }
+      header .principal a .fa-cart-shopping {
+        font-size: 25px;
+        color: black; }
   header .login {
     display: flex;
     justify-content: space-around;
@@ -144,9 +147,11 @@ footer {
     justify-content: space-around;
     padding: 4px;
     width: 270px; }
-    footer .redesSociales i {
-      font-size: 20px;
-      color: white; }
+    footer .redesSociales a {
+      text-decoration: none; }
+      footer .redesSociales a i {
+        font-size: 20px;
+        color: white; }
   footer .copyright {
     width: 100%;
     background-color: rgba(194, 243, 120, 0.795); }
