@@ -76,8 +76,7 @@ main {
   padding: 10px; }
   main .seccion1 .contenedor_portada {
     margin: auto;
-    width: 280px;
-    height: 158px;
+    width: 90%;
     overflow: hidden; }
     main .seccion1 .contenedor_portada img {
       width: 100%; }
@@ -155,3 +154,23 @@ footer {
       font-size: 14px;
       color: black;
       font-weight: bold; }
+
+@media (min-width: 321px) {
+  main .seccion1 .contenedor_portada {
+    width: 80%; } }
+
+@media (min-width: 481px) {
+  main .seccion1 .contenedor_portada {
+    width: 90%; } }
+
+@media (min-width: 769px) {
+  header .login {
+    justify-content: center; }
+    header .login .ingresar {
+      margin-left: 30px; } }
+
+@media (min-width: 1025px) {
+  nav {
+    justify-content: center; }
+  main .seccion1 .contenedor_portada {
+    width: 90%; } }
