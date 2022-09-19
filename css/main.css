@@ -35,7 +35,9 @@ header {
       font-family: 'Oxygen', sans-serif;
       transition: 1s; }
       header .login .crear_cuenta:hover {
-        background-color: greenyellow; }
+        background-color: greenyellow;
+        color: black;
+        font-weight: bold; }
     header .login .ingresar {
       background-color: black;
       border: 1px solid black;
@@ -47,7 +49,9 @@ header {
       font-family: 'Oxygen', sans-serif;
       transition: 1s; }
       header .login .ingresar:hover {
-        background-color: greenyellow; }
+        background-color: greenyellow;
+        color: black;
+        font-weight: bold; }
 
 nav {
   display: flex;
@@ -73,7 +77,8 @@ main {
   main .seccion1 .contenedor_portada {
     margin: auto;
     width: 280px;
-    height: 158px; }
+    height: 158px;
+    overflow: hidden; }
     main .seccion1 .contenedor_portada img {
       width: 100%; }
   main .seccion1 p {
@@ -91,7 +96,8 @@ main {
       padding: 10px;
       font-family: 'Oxygen', sans-serif;
       font-weight: 700;
-      font-size: 27px; }
+      font-size: 27px;
+      width: 100%; }
     main .seccion2 .card {
       border: 1px solid black;
       margin: auto;
@@ -121,7 +127,7 @@ footer {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   background-color: black;
   font-family: 'Oxygen', sans-serif; }
   footer h2 {
@@ -137,11 +143,13 @@ footer {
   footer .redesSociales {
     display: flex;
     justify-content: space-around;
-    padding: 4px; }
+    padding: 4px;
+    width: 270px; }
     footer .redesSociales i {
       font-size: 20px;
       color: white; }
   footer .copyright {
+    width: 100%;
     background-color: rgba(194, 243, 120, 0.795); }
     footer .copyright p {
       font-size: 14px;

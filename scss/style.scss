@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-// VERSION MOBILE DE INICIO
+// INICIO
 
 header {
     // border: 1px solid red;
@@ -45,7 +45,9 @@ header {
             font-family: 'Oxygen', sans-serif;
             transition: 1s;
             &:hover {
-                background-color: greenyellow
+                background-color: greenyellow;
+                color: black;
+                font-weight: bold;
             }
         }
         .ingresar {
@@ -60,7 +62,9 @@ header {
             font-family: 'Oxygen', sans-serif;
             transition: 1s;
             &:hover {
-                background-color: greenyellow
+                background-color: greenyellow;
+                color: black;
+                font-weight: bold;
             }
         }
     }
@@ -97,6 +101,7 @@ main {
             margin: auto;
             width: 280px;
             height: 158px;
+            overflow: hidden;
             img {
                 width: 100%;
             }
@@ -121,6 +126,7 @@ main {
             font-family: 'Oxygen', sans-serif;
             font-weight: 700;
             font-size: 27px;
+            width: 100%;
         }
         .card {
             border: 1px solid black;
@@ -160,7 +166,7 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     background-color: black;
     font-family: 'Oxygen', sans-serif;
     h2 {
@@ -181,6 +187,8 @@ footer {
         display: flex;
         justify-content: space-around;
         padding: 4px;
+        // border: 1px solid blue;
+        width: 270px;
         i {
             font-size: 20px;
             color: white;
@@ -188,6 +196,7 @@ footer {
     }
     .copyright {
         // border: 1px solid red;
+        width: 100%;
         background-color: rgba(194, 243, 120, 0.795);
         p {
             font-size: 14px;
@@ -195,5 +204,4 @@ footer {
             font-weight: bold;
         }
     }
-
 }
