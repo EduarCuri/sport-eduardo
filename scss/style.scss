@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-// INICIO
+// HEADER PARA TODAS LAS SECCIONES
 
 header {
     // border: 1px solid red;
@@ -73,6 +73,7 @@ header {
         }
     }
 }
+
 nav {
     // border: 1px solid red;
     display: flex;
@@ -96,7 +97,9 @@ nav {
     }
 }
 
-main {
+// INICIO
+
+.main_inicio {
     // border: 1px solid orange;
     padding: 10px;
     .seccion1 {
@@ -166,6 +169,94 @@ main {
     }
 }
 
+// REGISTRO
+
+.main_registro {
+    .seccion_registro {
+        background-image: url(../img/fondo_registro.jpeg);
+        background-position: 70%;
+        padding: 50px 0;
+        .container_registro {
+            background-color: black;
+            border-radius: 4px;
+            box-shadow: 1px 1px 10px white;
+            opacity: 0.8;
+            // border: 1px solid red;
+            height: 450px;
+            width: 300px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1 {
+                color: white;
+                // border: 1px solid blue;
+                font-family: 'Oxygen', sans-serif;
+                font-size: 30px;
+                text-align: center;
+                padding: 10px 0;
+            }
+            .fa-user {
+                font-size: 45px;
+                color: greenyellow;
+                text-align: center;
+                border: 3px solid white;
+                padding: 15px;
+                border-radius: 50%;
+            }
+            p {
+                color: white;
+                font-family: 'Oxygen', sans-serif;
+                font-size: 18px;
+            }
+            label {
+                color: white;
+                font-family: 'Oxygen', sans-serif;
+                display: inline-block;
+                font-size: 17px;
+                // border: 1px solid red;
+                width: 100%;
+                padding: 10px 0;
+                text-align: center;
+            }
+            input {
+                color: black;
+                height: 30px;
+                width: 90%;
+                border-radius: 5px;
+                padding: 0 4px;
+            }
+            .mensaje_bienvenida {
+                color: white;
+                font-family: 'Oxygen', sans-serif;
+                font-size: 15px;
+                // border: 1px solid blue;
+                padding: 10px 0;
+                text-align: center;
+            }
+            button {
+                font-family: 'Oxygen', sans-serif;
+                height: 40px;
+                border-radius: 4px;
+                padding: 4px;
+                cursor: pointer;
+                background-color: greenyellow;
+                color: black;
+                font-weight: bold;
+                transition: 0.5s;
+                &:hover {
+                    background-color: black;
+                    color: greenyellow;
+                    border: 3px solid greenyellow;
+                }
+            }
+
+        }
+    }
+}
+
+// FOOTER PARA TODAS LAS SECCIONES
+
 footer {
     // border: 1px solid red;
     width: 100%;
@@ -214,7 +305,7 @@ footer {
 }
 
 @media(min-width:321px) {
-    main {
+    .main_inicio {
         .seccion1 {
             .contenedor_portada {
                 // border: 1px solid red;
@@ -226,7 +317,7 @@ footer {
 }
 
 @media(min-width:481px) {
-    main {
+    .main_inicio {
         .seccion1 {
             .contenedor_portada {
                 // border: 1px solid red;
@@ -253,7 +344,7 @@ footer {
         justify-content: center;
     }
 
-    main {
+    .main_inicio {
         .seccion1 {
             .contenedor_portada {
                 // border: 1px solid red;

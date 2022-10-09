@@ -75,32 +75,32 @@ nav {
       background-color: black;
       color: greenyellow; }
 
-main {
+.main_inicio {
   padding: 10px; }
-  main .seccion1 .contenedor_portada {
+  .main_inicio .seccion1 .contenedor_portada {
     margin: auto;
     width: 90%;
     overflow: hidden; }
-    main .seccion1 .contenedor_portada img {
+    .main_inicio .seccion1 .contenedor_portada img {
       width: 100%; }
-  main .seccion1 p {
+  .main_inicio .seccion1 p {
     font-family: 'Oxygen', sans-serif;
     font-size: 17px;
     text-align: center;
     padding: 7px; }
-  main .seccion2 {
+  .main_inicio .seccion2 {
     padding: 10px 0;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap; }
-    main .seccion2 h2 {
+    .main_inicio .seccion2 h2 {
       text-align: center;
       padding: 10px;
       font-family: 'Oxygen', sans-serif;
       font-weight: 700;
       font-size: 27px;
       width: 100%; }
-    main .seccion2 .card {
+    .main_inicio .seccion2 .card {
       border: 1px solid black;
       margin: auto;
       width: 230px;
@@ -109,21 +109,88 @@ main {
       margin-bottom: 10px;
       margin-top: 10px;
       box-shadow: 1px 1px 6px black; }
-      main .seccion2 .card .imagen_card {
+      .main_inicio .seccion2 .card .imagen_card {
         width: 100%;
         height: 240px;
         border-radius: 4px 4px 0 0;
         overflow: hidden; }
-        main .seccion2 .card .imagen_card img {
+        .main_inicio .seccion2 .card .imagen_card img {
           width: 100%;
           height: 100%; }
-      main .seccion2 .card .contenido_card {
+      .main_inicio .seccion2 .card .contenido_card {
         width: 100%;
         height: 100px;
         overflow: hidden;
         border-radius: 0 0 4px 4px;
         text-align: justify;
         padding: 3px 10px; }
+
+.main_registro .seccion_registro {
+  background-image: url(../img/fondo_registro.jpeg);
+  background-position: 70%;
+  padding: 50px 0; }
+  .main_registro .seccion_registro .container_registro {
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px white;
+    opacity: 0.8;
+    height: 450px;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .main_registro .seccion_registro .container_registro h1 {
+      color: white;
+      font-family: 'Oxygen', sans-serif;
+      font-size: 30px;
+      text-align: center;
+      padding: 10px 0; }
+    .main_registro .seccion_registro .container_registro .fa-user {
+      font-size: 45px;
+      color: greenyellow;
+      text-align: center;
+      border: 3px solid white;
+      padding: 15px;
+      border-radius: 50%; }
+    .main_registro .seccion_registro .container_registro p {
+      color: white;
+      font-family: 'Oxygen', sans-serif;
+      font-size: 18px; }
+    .main_registro .seccion_registro .container_registro label {
+      color: white;
+      font-family: 'Oxygen', sans-serif;
+      display: inline-block;
+      font-size: 17px;
+      width: 100%;
+      padding: 10px 0;
+      text-align: center; }
+    .main_registro .seccion_registro .container_registro input {
+      color: black;
+      height: 30px;
+      width: 90%;
+      border-radius: 5px;
+      padding: 0 4px; }
+    .main_registro .seccion_registro .container_registro .mensaje_bienvenida {
+      color: white;
+      font-family: 'Oxygen', sans-serif;
+      font-size: 15px;
+      padding: 10px 0;
+      text-align: center; }
+    .main_registro .seccion_registro .container_registro button {
+      font-family: 'Oxygen', sans-serif;
+      height: 40px;
+      border-radius: 4px;
+      padding: 4px;
+      cursor: pointer;
+      background-color: greenyellow;
+      color: black;
+      font-weight: bold;
+      transition: 0.5s; }
+      .main_registro .seccion_registro .container_registro button:hover {
+        background-color: black;
+        color: greenyellow;
+        border: 3px solid greenyellow; }
 
 footer {
   width: 100%;
@@ -161,11 +228,11 @@ footer {
       font-weight: bold; }
 
 @media (min-width: 321px) {
-  main .seccion1 .contenedor_portada {
+  .main_inicio .seccion1 .contenedor_portada {
     width: 80%; } }
 
 @media (min-width: 481px) {
-  main .seccion1 .contenedor_portada {
+  .main_inicio .seccion1 .contenedor_portada {
     width: 90%; } }
 
 @media (min-width: 769px) {
@@ -177,5 +244,5 @@ footer {
 @media (min-width: 1025px) {
   nav {
     justify-content: center; }
-  main .seccion1 .contenedor_portada {
+  .main_inicio .seccion1 .contenedor_portada {
     width: 90%; } }
