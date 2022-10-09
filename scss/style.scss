@@ -274,6 +274,7 @@ nav {
             display: flex;
             flex-direction: column;
             align-items: center;
+            margin-bottom: 60px;
             h1 {
                 color: white;
                 // border: 1px solid blue;
@@ -369,6 +370,81 @@ nav {
                 padding: 15px;
                 display: flex;
                 align-items: center;
+            }
+        }
+    }
+}
+
+// CONOCENOS
+
+.main_conocenos {
+    h1 {
+        // border: 1px solid red;
+        font-family: 'Oxygen', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        background-color: black;
+        color: greenyellow;
+    }
+    .seccion_informacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .informacion {
+            padding: 15px 50px;
+            p {
+                // border: 1px solid blue;
+                font-family: 'Oxygen', sans-serif;
+                font-size: 23px;
+                text-align: center;
+            }
+        }
+        .imagen_conocenos {
+            // border: 1px solid red;
+            width: 90%;
+            img {
+                width: 100%;
+                border-radius: 3px;
+            }
+        }
+    }
+    .integrantes {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .container_integrante {
+            box-shadow: 1px 1px 10px black;
+            margin-top: 10px;
+            border-radius: 5px 5px 5px 5px;
+            .foto_integrante {
+                // border: 1px solid blue;
+                border-radius: 5px 5px 0 0;
+                width: 250px;
+                height: 220px;
+                overflow: hidden;
+                .foto_paul {
+                    height: 100%;
+                }
+                img {
+                    width: 100%;
+                }
+            }
+            .informacion_integrante {
+                // border: 1px solid green;
+                border-radius: 0 0 5px 5px;
+                width: 250px;
+                height: 130px;
+                background-color: black;
+                overflow: hidden;
+                p {
+                    font-family: 'Oxygen', sans-serif;
+                    font-size: 18px;
+                    text-align: center;
+                    padding: 4px 0;
+                    color: greenyellow;
+                }
             }
         }
     }

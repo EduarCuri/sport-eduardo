@@ -206,7 +206,8 @@ nav {
     margin: auto;
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    margin-bottom: 60px; }
     .main_sesion .seccion_iniciosesion .container_iniciosesion h1 {
       color: white;
       font-family: 'Oxygen', sans-serif;
@@ -280,6 +281,61 @@ nav {
     padding: 15px;
     display: flex;
     align-items: center; }
+
+.main_conocenos h1 {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  background-color: black;
+  color: greenyellow; }
+
+.main_conocenos .seccion_informacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .main_conocenos .seccion_informacion .informacion {
+    padding: 15px 50px; }
+    .main_conocenos .seccion_informacion .informacion p {
+      font-family: 'Oxygen', sans-serif;
+      font-size: 23px;
+      text-align: center; }
+  .main_conocenos .seccion_informacion .imagen_conocenos {
+    width: 90%; }
+    .main_conocenos .seccion_informacion .imagen_conocenos img {
+      width: 100%;
+      border-radius: 3px; }
+
+.main_conocenos .integrantes {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .main_conocenos .integrantes .container_integrante {
+    box-shadow: 1px 1px 10px black;
+    margin-top: 10px;
+    border-radius: 5px 5px 5px 5px; }
+    .main_conocenos .integrantes .container_integrante .foto_integrante {
+      border-radius: 5px 5px 0 0;
+      width: 250px;
+      height: 220px;
+      overflow: hidden; }
+      .main_conocenos .integrantes .container_integrante .foto_integrante .foto_paul {
+        height: 100%; }
+      .main_conocenos .integrantes .container_integrante .foto_integrante img {
+        width: 100%; }
+    .main_conocenos .integrantes .container_integrante .informacion_integrante {
+      border-radius: 0 0 5px 5px;
+      width: 250px;
+      height: 130px;
+      background-color: black;
+      overflow: hidden; }
+      .main_conocenos .integrantes .container_integrante .informacion_integrante p {
+        font-family: 'Oxygen', sans-serif;
+        font-size: 18px;
+        text-align: center;
+        padding: 4px 0;
+        color: greenyellow; }
 
 footer {
   width: 100%;
