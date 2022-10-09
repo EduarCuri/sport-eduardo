@@ -192,6 +192,95 @@ nav {
         color: greenyellow;
         border: 3px solid greenyellow; }
 
+.main_sesion .seccion_iniciosesion {
+  background-image: url(../img/fondo_sesion.jpg);
+  background-position: 70%;
+  padding: 50px 0; }
+  .main_sesion .seccion_iniciosesion .container_iniciosesion {
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px white;
+    opacity: 0.8;
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .main_sesion .seccion_iniciosesion .container_iniciosesion h1 {
+      color: white;
+      font-family: 'Oxygen', sans-serif;
+      font-size: 30px;
+      text-align: center;
+      padding: 10px 0; }
+    .main_sesion .seccion_iniciosesion .container_iniciosesion .fa-user {
+      font-size: 45px;
+      color: greenyellow;
+      text-align: center;
+      border: 3px solid white;
+      padding: 15px;
+      border-radius: 50%; }
+    .main_sesion .seccion_iniciosesion .container_iniciosesion p {
+      padding-top: 15px;
+      color: white;
+      font-family: 'Oxygen', sans-serif;
+      font-size: 18px; }
+    .main_sesion .seccion_iniciosesion .container_iniciosesion label {
+      color: white;
+      font-family: 'Oxygen', sans-serif;
+      display: inline-block;
+      font-size: 17px;
+      width: 100%;
+      padding: 10px 0;
+      text-align: center; }
+    .main_sesion .seccion_iniciosesion .container_iniciosesion input {
+      color: black;
+      height: 30px;
+      width: 90%;
+      border-radius: 5px;
+      padding: 0 4px; }
+    .main_sesion .seccion_iniciosesion .container_iniciosesion button {
+      margin-top: 20px;
+      font-family: 'Oxygen', sans-serif;
+      height: 40px;
+      border-radius: 4px;
+      padding: 4px;
+      cursor: pointer;
+      background-color: greenyellow;
+      color: black;
+      font-weight: bold;
+      transition: 0.5s; }
+      .main_sesion .seccion_iniciosesion .container_iniciosesion button:hover {
+        background-color: black;
+        color: greenyellow;
+        border: 3px solid greenyellow; }
+
+.container .main_contactanos h1 {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 25px;
+  background-color: black;
+  color: greenyellow; }
+
+.container .main_contactanos .contenedor_inf {
+  margin-bottom: 50px; }
+  .container .main_contactanos .contenedor_inf .informacion {
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .container .main_contactanos .contenedor_inf .informacion h2 {
+      padding: 10px 0;
+      font-family: 'Oxygen', sans-serif;
+      font-size: 20px; }
+    .container .main_contactanos .contenedor_inf .informacion p {
+      font-size: 16px;
+      font-family: 'Oxygen', sans-serif;
+      text-align: center; }
+  .container .main_contactanos .contenedor_inf .mapa {
+    padding: 15px;
+    display: flex;
+    align-items: center; }
+
 footer {
   width: 100%;
   display: flex;
@@ -245,4 +334,22 @@ footer {
   nav {
     justify-content: center; }
   .main_inicio .seccion1 .contenedor_portada {
-    width: 90%; } }
+    width: 90%; }
+  .container .main_contactanos h1 {
+    font-size: 50px;
+    background-color: black;
+    color: greenyellow;
+    margin-bottom: 20px; }
+  .container .main_contactanos .contenedor_inf {
+    display: flex; }
+    .container .main_contactanos .contenedor_inf .informacion {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .container .main_contactanos .contenedor_inf .informacion h2 {
+        font-size: 28px; }
+      .container .main_contactanos .contenedor_inf .informacion p {
+        font-size: 23px; }
+    .container .main_contactanos .contenedor_inf .mapa {
+      width: 50%; } }
