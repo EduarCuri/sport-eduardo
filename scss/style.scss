@@ -648,6 +648,118 @@ nav {
     }
 }
 
+//MAIN CARRITO DE COMPRAS
+
+.main_carrito{
+    .contenedor1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        // border: 1px solid green;
+        width: 100%;
+
+        .ejemplo1 {
+            // border: 1px solid red;
+            width: 90%;
+            height: 80px;
+            display: flex;
+            margin-top: 10px;
+            box-shadow: 2px 2px 9px black;
+            .contenedor_imagen {
+                // border: 1px solid blue;
+                width: 20%;
+                height: 80px;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                }
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .area_descripcion {
+                // border: 1px solid purple;
+                width: 30%;
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 15px;
+            }
+            .area_precio {
+                // border: 1px solid red;
+                width: 20%;
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .area_cantidad {
+                // border: 1px solid blue;
+                width: 10%;
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                input {
+                    width: 40px;
+                    height: 30px;
+                }
+            }
+            .area_total {
+                // border: 1px solid green;
+                // background-color: green;
+                width: 20%;
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    .contenedor2 {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        .resumen_compra {
+            border-radius: 4px;
+            background-color: black;
+            color: greenyellow;
+            box-shadow: 2px 2px 9px black;
+            // border: 1px solid red;
+            width: 250px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            h2 {
+                // border: 1px solid blue;
+                font-size: 30px;
+                text-align: center;
+                font-family: 'Oxygen', sans-serif;
+            }
+            p {
+                font-size: 17px;
+            }
+            button {
+                font-family: 'Oxygen', sans-serif;
+                height: 30px;
+                padding: 5px;
+                background-color: greenyellow;
+                color: black;
+                transition: all 0.5s;
+                cursor: pointer;
+                &:hover {
+                    background-color: black;
+                    color: greenyellow;
+                }
+            }
+        }
+    }
+}
+
 
 // FOOTER PARA TODAS LAS SECCIONES
 
@@ -778,4 +890,20 @@ footer {
             }
         }
     }
+
+    .container {
+        .main_carrito {
+            display: flex;
+
+            .contenedor1 {
+                width: 50%;
+            }
+            .contenedor2 {
+                width: 50%;
+            }
+        }
+    }
+
+
+
 }
