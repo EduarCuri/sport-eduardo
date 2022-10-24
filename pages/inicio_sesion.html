@@ -34,16 +34,16 @@
             </nav>
             <main class="main_sesion">
                 <div class="seccion_iniciosesion">
-                    <div class="container_iniciosesion">
+                    <form class="container_iniciosesion" name="formularioInicioSesion">
                         <h1>SPORT EDUARDO</h1>
                         <i class="fa-solid fa-user"></i>
                         <p>ACCEDER</p>
                         <label for="#">Direccion de correo electrónico</label>
-                        <input type="text" placeholder="example@outlook.com" />
+                        <input type="text" placeholder="example@outlook.com" name="correo"/>
                         <label for="#">Contraseña</label>
-                        <input type="password" placeholder="**********" />
-                        <button>INGRESAR</button>
-                    </div>
+                        <input type="password" placeholder="**********" name="contrasenia" />
+                        <button onclick="validarInformacion()">INGRESAR</button>
+                    </form>
                 </div>
             </main>
         </div>
@@ -68,6 +68,7 @@
                 <p>Todos los derechos reservados &copy; 2022</p>
             </div>
         </footer>
+        <script src="../js/main.js"></script>
         <script
             src="https://kit.fontawesome.com/af40f4f0fe.js"
             crossorigin="anonymous"

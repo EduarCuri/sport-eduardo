@@ -34,22 +34,22 @@
             </nav>
             <main class="main_registro">
                 <div class="seccion_registro">
-                    <div class="container_registro">
+                    <form class="container_registro" name="formularioInicioSesion">
                         <h1>SPORT EDUARDO</h1>
                         <i class="fa-solid fa-user"></i>
                         <p>Registro de usuario</p>
                         <label for="#">Direccion de correo electrónico</label>
-                        <input type="text" placeholder="example@outlook.com" />
+                        <input type="text" placeholder="example@outlook.com" name="correo"/>
                         <label for="#">Contraseña</label>
-                        <input type="password" placeholder="**********" />
+                        <input type="password" placeholder="**********" name="contrasenia"/>
                         <p class="mensaje_bienvenida">
                             Recuerda brindar la información correcta y
                             recordarla por cualquier inconveniente, estamos
                             felices de que formes parte de nuestra familia de
                             clientes.
                         </p>
-                        <button>REGISTRARSE</button>
-                    </div>
+                        <button onclick="validarInformacion()">REGISTRARSE</button>
+                    </form>
                 </div>
             </main>
             <footer>
@@ -74,6 +74,7 @@
                 </div>
             </footer>
         </div>
+        <script src="../js/main.js"></script>
         <script
             src="https://kit.fontawesome.com/af40f4f0fe.js"
             crossorigin="anonymous"

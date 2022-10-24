@@ -36,13 +36,10 @@
                 <div class="contenedor_formulario">
                     <h2>Sport Eduardo</h2>
                     <label for="#">Nombre</label>
-                    <input type="text" placeholder="Ingrese su nombre">
-                    <textarea name="#" id="#" cols="50" rows="20" placeholder="ingrese su comentario"></textarea>
-                    <button>PUBLICAR COMENTARIO</button>
+                    <input id="nombreComentario" type="text" placeholder="Ingrese su nombre">
+                    <textarea name="#" id="textoComentario" cols="50" rows="20" placeholder="ingrese su comentario"></textarea>
+                    <button onclick="validarComentario()">PUBLICAR COMENTARIO</button>
                 </div>
-                <!-- <div class="contenedor_comentarios">
-
-                </div> -->
             </main>
             <footer>
                 <h2>SportEduardo.com</h2>
@@ -66,7 +63,7 @@
                 </div>
             </footer>
         </div>
-
+        <script src="../js/main.js"></script>
         <script
             src="https://kit.fontawesome.com/af40f4f0fe.js"
             crossorigin="anonymous"
