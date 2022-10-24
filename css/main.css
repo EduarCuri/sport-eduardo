@@ -570,6 +570,62 @@ nav {
         background-color: black;
         color: greenyellow; }
 
+.main_historial h2 {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold; }
+
+.main_historial .contenedor_historial {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  .main_historial .contenedor_historial .inf_historial {
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px black;
+    width: 90%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px; }
+    .main_historial .contenedor_historial .inf_historial .area_factura {
+      height: 50px;
+      width: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center; }
+    .main_historial .contenedor_historial .inf_historial .area_nombre {
+      height: 50px;
+      width: 25%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center; }
+    .main_historial .contenedor_historial .inf_historial .area_fecha {
+      height: 50px;
+      width: 25%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center; }
+    .main_historial .contenedor_historial .inf_historial .area_estado {
+      height: 50px;
+      width: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center; }
+    .main_historial .contenedor_historial .inf_historial .area_importe {
+      height: 50px;
+      width: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center; }
+
 footer {
   width: 100%;
   display: flex;
