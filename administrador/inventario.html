@@ -50,9 +50,7 @@
                         ></a>
                     </div>
                     <div class="login">
-                        <a class="ingresar" href="./inicio_sesion.html"
-                            >Cerrar Sesion</a
-                        >
+                        <input type="button" class="ingresar" value="Cerrar Sesion" id="Salir">
                     </div>
                 </header>
                 <nav>
@@ -116,7 +114,7 @@
                                                 data-bs-target="#modalEditar"
                                                 >Editar</a
                                             >
-                                            <a href="#" class="btn btn-danger"
+                                            <a href="#" class="btn btn-danger btnEliminar"
                                                 >Eliminar</a
                                             >
                                         </td>
@@ -142,7 +140,7 @@
                                                 data-bs-target="#modalEditar"
                                                 >Editar</a
                                             >
-                                            <a href="#" class="btn btn-danger"
+                                            <a href="#" class="btn btn-danger btnEliminar"
                                                 >Eliminar</a
                                             >
                                         </td>
@@ -168,7 +166,7 @@
                                                 data-bs-target="#modalEditar"
                                                 >Editar</a
                                             >
-                                            <a href="#" class="btn btn-danger"
+                                            <a href="#" class="btn btn-danger btnEliminar"
                                                 >Eliminar</a
                                             >
                                         </td>
@@ -194,7 +192,7 @@
                                                 data-bs-target="#modalEditar"
                                                 >Editar</a
                                             >
-                                            <a href="#" class="btn btn-danger"
+                                            <a href="#" class="btn btn-danger btnEliminar"
                                                 >Eliminar</a
                                             >
                                         </td>
@@ -240,7 +238,7 @@
                                                     <input
                                                         type="text"
                                                         class="form-control"
-                                                        id="codigo"
+                                                        id="codigoA"
                                                         placeholder=""
                                                     />
                                                 </div>
@@ -253,7 +251,7 @@
                                                     <input
                                                         class="form-control"
                                                         type="file"
-                                                        id="imagen"
+                                                        id="imagenA"
                                                     />
                                                 </div>
                                                 <div class="mb-3">
@@ -265,7 +263,7 @@
                                                     <input
                                                         type="text"
                                                         class="form-control"
-                                                        id="nombre"
+                                                        id="nombreA"
                                                         placeholder=""
                                                     />
                                                 </div>
@@ -280,7 +278,7 @@
                                                     <input
                                                         type="number"
                                                         class="form-control"
-                                                        id="cantidad"
+                                                        id="cantidadA"
                                                         placeholder=""
                                                     />
                                                 </div>
@@ -293,7 +291,7 @@
                                                     <input
                                                         type="number"
                                                         class="form-control"
-                                                        id="precio"
+                                                        id="precioA"
                                                         placeholder=""
                                                     />
                                                 </div>
@@ -312,6 +310,7 @@
                                     <button
                                         type="button"
                                         class="btn btn-primary"
+                                        id="btnAgregar"
                                     >
                                         Agregar
                                     </button>
@@ -356,7 +355,7 @@
                                                     <input
                                                         type="text"
                                                         class="form-control"
-                                                        id="codigo"
+                                                        id="codigoE"
                                                         placeholder=""
                                                         disabled
                                                     />
@@ -370,7 +369,7 @@
                                                     <input
                                                         class="form-control"
                                                         type="file"
-                                                        id="imagen"
+                                                        id="imagenE"
                                                     />
                                                 </div>
                                                 <div class="mb-3">
@@ -382,7 +381,7 @@
                                                     <input
                                                         type="text"
                                                         class="form-control"
-                                                        id="nombre"
+                                                        id="nombreE"
                                                         placeholder=""
                                                     />
                                                 </div>
@@ -397,7 +396,7 @@
                                                     <input
                                                         type="number"
                                                         class="form-control"
-                                                        id="cantidad"
+                                                        id="cantidadE"
                                                         placeholder=""
                                                     />
                                                 </div>
@@ -410,7 +409,7 @@
                                                     <input
                                                         type="number"
                                                         class="form-control"
-                                                        id="precio"
+                                                        id="precioE"
                                                         placeholder=""
                                                     />
                                                 </div>
@@ -429,7 +428,9 @@
                                     <button
                                         type="button"
                                         class="btn btn-primary"
+                                        id="btnEditar"
                                     >
+                                    
                                         Agregar
                                     </button>
                                 </div>
@@ -452,6 +453,8 @@
                     integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
                     crossorigin="anonymous"
                 ></script>
+                <script src="../js/crudInventario.js"></script>
+                <script src="../js/cerrarSesion.js"></script>
             </body>
         </html>
     </body>
